@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/code/comivoyagerexe/comivoyager/comivoyager/comivoyager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "662f54531f35ba560864e0ca71c4ddbfda1726e2d868e519c5c74eda566fdcbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/code/comivoyagerexe/comivoyager/comivoyager/graph.h"
+          },
+          "hashes": {
+            "sha-256": "173d90065bd52836ef17d007d7a327a5184681c3bf732ed131e2fa9f499b6ef1"
+          }
+        }
+      ]
+    }
+  ]
+}
